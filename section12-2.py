@@ -5,7 +5,7 @@
 import sqlite3
 
 # DB 파일 조회(없으면 새로 생성)
-conn = sqlite3.connect('본인이 원하는 경로/database.db')  # 본인 DB 파일 경로
+conn = sqlite3.connect('resource/database.db')  # 본인 DB 파일 경로
 
 # 커서 바인딩
 c = conn.cursor()
